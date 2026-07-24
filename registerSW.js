@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/fab-market-web/sw.js', { scope: '/fab-market-web/' })})}
